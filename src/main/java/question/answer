@@ -1,0 +1,3 @@
+An array is a container that holds a fixed number of values of some type.
+Its length it’s fixed and known at “creation” time due to its memory layout.
+The whole purpose of array is to be fast.
