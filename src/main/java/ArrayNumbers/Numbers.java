@@ -15,13 +15,7 @@ public class Numbers {
         number.add(18);
         number.add(20);
         number.add(22);
-        Iterator<Integer> iterator = number.iterator();
-        while (iterator.hasNext()) {
-            Integer value = iterator.next();
-            if (value % 3 == 0) {
-                iterator.remove();
-            }
-        }
+        number.removeIf(value -> value % 3 == 0);
         System.out.println(number);
 
     }
