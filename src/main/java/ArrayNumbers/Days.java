@@ -1,12 +1,13 @@
 package main.java.ArrayNumbers;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Days {
 
     public static void main(String[] args) {
 
-        ArrayList<String> days = new ArrayList<>();
+        List<String> days = new ArrayList<>();
         days.add("One");
         days.add("Two");
         days.add("Tree");
